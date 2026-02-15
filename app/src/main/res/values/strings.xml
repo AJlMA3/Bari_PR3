@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Доставка еды</string>
+
+    <string name="choose_order">Выберите заказ:</string>
+    <string name="pizza_label">Итальянская пицца</string>
+    <string name="sushi_label">Японские роллы</string>
+    <string name="burger_label">Бургер-сет</string>
+    <string name="exit_button">Выход</string>
+    <string name="next_button">Вперед</string>
+
+    <string name="address_hint">Улица, дом, квартира</string>
+    <string name="payment_title">Выберите способ оплаты:</string>
+    <string name="back_button">Назад</string>
+
+    <string name="order_ready">Ваш заказ сформирован и уже в пути!</string>
+
+    <string-array name="payment_methods">
+        <item>Наличными курьеру</item>
+        <item>Банковской картой</item>
+        <item>СБП / QR-код</item>
+    </string-array>
+</resources>

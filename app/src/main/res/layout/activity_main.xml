@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#FFF3E0">
+
+    <ImageView
+        android:id="@+id/img_step1"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="centerInside"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/food_logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_order"
+        android:textSize="18sp"
+        android:layout_marginTop="25dp"
+        android:textColor="#4E342E"/>
+
+    <RadioGroup
+        android:id="@+id/rgFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp">
+        <RadioButton android:id="@+id/pizza" android:text="@string/pizza_label" />
+        <RadioButton android:id="@+id/sushi" android:text="@string/sushi_label" />
+        <RadioButton android:id="@+id/burger" android:text="@string/burger_label" />
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/exit_button" />
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:text="@string/next_button" />
+    </LinearLayout>
+</LinearLayout>
