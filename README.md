@@ -16,12 +16,12 @@
 Как видно по рисунку, кнопка "Вперед" заблокирована, пока не выбран заказ. Поэтому следует выбрать один из них
 
 #### Рисунок 2 – Выбор заказа
-<img src="https://github.com/user-attachments/assets/411b1008-187b-491e-bade-e68f8d7c20ab" width="500" />
+<img src="https://github.com/user-attachments/assets/411b1008-187b-491e-bade-e68f8d7c20ab" width="300" />
 
 В данном окне помимо ввода текста можно выбрать способ оплаты (по умолчанию наличными)
 
 #### Рисунок 3 – Окно ввода данных
-<img src="https://github.com/user-attachments/assets/e4fec9ae-aa8a-4f8d-bb9a-875a157e69fe" width="500" />
+<img src="https://github.com/user-attachments/assets/e4fec9ae-aa8a-4f8d-bb9a-875a157e69fe" width="300" />
 
 #### Рисунок 4 – Ввод данных
 <img src="https://github.com/user-attachments/assets/424832aa-fb58-4458-8c64-0c0f622f3510" width="300" />
